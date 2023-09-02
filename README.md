@@ -9,8 +9,8 @@ OnaHole, Relic, Succubus, Magical Girl, Golem, Petrified, Cocoon, Mega Slime, Sl
 
 ## Install Instructions
 
-1. Download and install the [Giannan Loader](https://github.com/1d51/giannan-loader) mod.
-2. Download the mod from this [link](https://github.com/1d51/giannan-faces/archive/refs/heads/main.zip) for the latest changes.
+1. Download and install the [Giannan Loader](https://github.com/giannan-mods/giannan-loader) mod.
+2. Download the mod from this [link](https://github.com/giannan-mods/giannan-faces/archive/refs/heads/main.zip) for the latest changes.
 3. Unzip and drop the folder into the `mods` folder.
 4. Launch the game and activate the mod.
 
