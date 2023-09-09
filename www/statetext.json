@@ -1,22 +1,1221 @@
 {
-	"inputs": [
-		{
-			"priority": 0,
-			"conditions":[
-				{
-					"inclusive": true,
-					"type": "state",
-					"id": 1
-				}
-			],
-			"replacements": [
-				{
-					"source": "[^]*",
-					"target": "Example",
-					"modifiers": "",
-					"chance": 1.0
-				}
-			]
-		}
-	]
+  "data": [
+    {
+      "name": "Soul Golem",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 75
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Ruined OnaHole",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 215
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "OnaHole",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 95
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Relic",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 113
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Succubus",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 212
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[10]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 1
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[12]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 2
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[23]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 3
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[17]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 4
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[9]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 5
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[8]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 6
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[30]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 7
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[27]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 8
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[27]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 9
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[18]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 10
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\C[20]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Golem",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 8
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Petrified",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 14
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Cocoon",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 31
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Robot",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 76
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Mega Slime",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 296
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Raise2>\\lspi[120]\\C[23]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Slime",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 279
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Raise2>\\lspi[150]\\C[23]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Drone",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 73
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Mobile Puppet",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 18
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Puppet",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 17
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Zombie",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 160
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]\\lsi[4]Nnnnnuuuuhhhhmmmnnn......<br>\\}$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 160
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]\\lsi[4]Uuuuuuuhhmmmnnnnnn......<br>\\}$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Zombie",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 72
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]\\lsi[4]Nnnnnuuuuhhhhmmmnnn......<br>\\}$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 72
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]\\lsi[4]Uuuuuuuhhmmmnnnnnn......<br>\\}$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Enraged",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 147
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Orc",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 19
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Cow",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 144
+        },
+        {
+          "inclusive": true,
+          "type": "random",
+          "value": 0.1
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]Mmmmmmmuuuuooo$2<br>\\}\\lsv[0]$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Cow",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 144
+        },
+        {
+          "inclusive": true,
+          "type": "random",
+          "value": 0.1
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]*Snort* Mmmmmooooooo$2<br>\\}\\lsv[0]$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Cow",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 144
+        },
+        {
+          "inclusive": true,
+          "type": "random",
+          "value": 0.1
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]Mmmoooo$2 Mmmuuoooo$2<br>\\}\\lsv[0]$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Cow",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 144
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+          "target": "\\lspi[130]Mmmmoooooo$2<br>\\}\\lsv[0]$1$2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Mindbreak",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 118
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Faceless",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 149
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Masked II",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 142
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Cancel2>\\lspi[50]\\fi$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Masked",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 141
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Clown",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 41
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Jump1>\\fs[30]\\fn<Bunny>$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Entangled",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 46
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Bimbo",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 45
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*), ([\\s\\S]*)",
+          "target": "$1, like, $2",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Mini",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 39
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\}\\lspi[200]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Possesed",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 34
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Cancel2>$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Possesed",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 107
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsn<Cancel2>$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Soulfreeze",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 99
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lspi[130]\\lsi[4]$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Ignition",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 98
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Cursed",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 38
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([A-Za-z]+) ",
+          "target": "$1... ",
+          "modifiers": "",
+          "chance": 0.5
+        },
+        {
+          "source": "([A-Za-z]+) ",
+          "target": "$1... ",
+          "modifiers": "",
+          "chance": 0.5
+        },
+        {
+          "source": "([A-Za-z]+) ",
+          "target": "$1... ",
+          "modifiers": "",
+          "chance": 0.5
+        },
+        {
+          "source": "([A-Za-z]+) ",
+          "target": "$1... ",
+          "modifiers": "",
+          "chance": 0.5
+        },
+        {
+          "source": "([A-Za-z]+) ",
+          "target": "$1... ",
+          "modifiers": "",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Cheerleader",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 119
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Formatting",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 78
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Haigure Loop",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 148
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "HAIGURE~! ♥ HAIGURE~! ♥ HAIGURE~! ♥ HAIGURE~! ♥<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Haigure",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 77
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([^ ]+)([ ]+)",
+          "target": "$1$2Haigure~ ",
+          "modifiers": "g",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Stopped",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 21
+        }
+      ],
+      "replacements": [
+        {
+          "source": "([\\s\\S]*)",
+          "target": "\\lsv[0]............<br>\\}$1",
+          "modifiers": "",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Denial Can't Cum",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 122
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Enthralled",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 15
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Worship",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 51
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Maid",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 83
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Maid",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 82
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Maid Outfit",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 81
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Blank",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 37
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Ravaged",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 20
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Feral",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 16
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Dumb",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 47
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Unaware",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 176
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Mesmerized",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 22
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Captured",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 173
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Collared",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 25
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Slimy",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 27
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Horny",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 11
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Giggly",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 58
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Aroused",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 13
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Pregnant",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 33
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Denial",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 120
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Collared",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 24
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Empowered",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 49
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Corruption",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 59
+        }
+      ],
+      "replacements": []
+    },
+    {
+      "name": "Defeated",
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "state",
+          "id": 1
+        }
+      ],
+      "replacements": []
+    }
+  ]
 }
