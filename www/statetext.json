@@ -1,7 +1,8 @@
 {
-  "data": [
+  "inputs": [
     {
       "name": "Soul Golem",
+      "priority": 100,
       "conditions": [
         {
           "inclusive": true,
@@ -13,6 +14,7 @@
     },
     {
       "name": "Ruined OnaHole",
+      "priority": 200,
       "conditions": [
         {
           "inclusive": true,
@@ -31,6 +33,7 @@
     },
     {
       "name": "OnaHole",
+      "priority": 300,
       "conditions": [
         {
           "inclusive": true,
@@ -49,6 +52,7 @@
     },
     {
       "name": "Relic",
+      "priority": 400,
       "conditions": [
         {
           "inclusive": true,
@@ -67,6 +71,7 @@
     },
     {
       "name": "Succubus",
+      "priority": 500,
       "conditions": [
         {
           "inclusive": true,
@@ -84,7 +89,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Lilina)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -107,7 +113,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Sinian)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -130,7 +137,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Sable)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -153,7 +161,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Jyla)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -176,7 +185,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Nuan)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -199,7 +209,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (LW)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -222,7 +233,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Alisha)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -245,7 +257,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Yterre)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -268,7 +281,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Annie)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -291,7 +305,8 @@
       ]
     },
     {
-      "name": "Magical Girl",
+      "name": "Magical Girl (Samona)",
+      "priority": 600,
       "conditions": [
         {
           "inclusive": true,
@@ -315,6 +330,7 @@
     },
     {
       "name": "Golem",
+      "priority": 700,
       "conditions": [
         {
           "inclusive": true,
@@ -333,6 +349,7 @@
     },
     {
       "name": "Petrified",
+      "priority": 800,
       "conditions": [
         {
           "inclusive": true,
@@ -351,6 +368,7 @@
     },
     {
       "name": "Cocoon",
+      "priority": 900,
       "conditions": [
         {
           "inclusive": true,
@@ -369,6 +387,7 @@
     },
     {
       "name": "Robot",
+      "priority": 10000,
       "conditions": [
         {
           "inclusive": true,
@@ -380,6 +399,7 @@
     },
     {
       "name": "Mega Slime",
+      "priority": 11000,
       "conditions": [
         {
           "inclusive": true,
@@ -398,6 +418,7 @@
     },
     {
       "name": "Slime",
+      "priority": 12000,
       "conditions": [
         {
           "inclusive": true,
@@ -416,6 +437,7 @@
     },
     {
       "name": "Drone",
+      "priority": 13000,
       "conditions": [
         {
           "inclusive": true,
@@ -434,6 +456,7 @@
     },
     {
       "name": "Mobile Puppet",
+      "priority": 14000,
       "conditions": [
         {
           "inclusive": true,
@@ -452,6 +475,7 @@
     },
     {
       "name": "Puppet",
+      "priority": 15000,
       "conditions": [
         {
           "inclusive": true,
@@ -469,7 +493,8 @@
       ]
     },
     {
-      "name": "Zombie",
+      "name": "Zombie (A)",
+      "priority": 16000,
       "conditions": [
         {
           "inclusive": true,
@@ -487,24 +512,8 @@
       ]
     },
     {
-      "conditions": [
-        {
-          "inclusive": true,
-          "type": "state",
-          "id": 160
-        }
-      ],
-      "replacements": [
-        {
-          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
-          "target": "\\lspi[130]\\lsi[4]Uuuuuuuhhmmmnnnnnn......<br>\\}$1$2",
-          "modifiers": "",
-          "chance": 1
-        }
-      ]
-    },
-    {
-      "name": "Zombie",
+      "name": "Zombie (B)",
+      "priority": 17000,
       "conditions": [
         {
           "inclusive": true,
@@ -516,23 +525,6 @@
         {
           "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
           "target": "\\lspi[130]\\lsi[4]Nnnnnuuuuhhhhmmmnnn......<br>\\}$1$2",
-          "modifiers": "",
-          "chance": 1
-        }
-      ]
-    },
-    {
-      "conditions": [
-        {
-          "inclusive": true,
-          "type": "state",
-          "id": 72
-        }
-      ],
-      "replacements": [
-        {
-          "source": "([\\s\\S]*?)(\\.*\\?*!*)$",
-          "target": "\\lspi[130]\\lsi[4]Uuuuuuuhhmmmnnnnnn......<br>\\}$1$2",
           "modifiers": "",
           "chance": 1
         }
@@ -540,6 +532,7 @@
     },
     {
       "name": "Enraged",
+      "priority": 18000,
       "conditions": [
         {
           "inclusive": true,
@@ -551,6 +544,7 @@
     },
     {
       "name": "Orc",
+      "priority": 19000,
       "conditions": [
         {
           "inclusive": true,
@@ -561,7 +555,8 @@
       "replacements": []
     },
     {
-      "name": "Cow",
+      "name": "Cow (A)",
+      "priority": 20000,
       "conditions": [
         {
           "inclusive": true,
@@ -584,7 +579,8 @@
       ]
     },
     {
-      "name": "Cow",
+      "name": "Cow (B)",
+      "priority": 20000,
       "conditions": [
         {
           "inclusive": true,
@@ -607,7 +603,8 @@
       ]
     },
     {
-      "name": "Cow",
+      "name": "Cow (C)",
+      "priority": 20000,
       "conditions": [
         {
           "inclusive": true,
@@ -630,7 +627,8 @@
       ]
     },
     {
-      "name": "Cow",
+      "name": "Cow (D)",
+      "priority": 20000,
       "conditions": [
         {
           "inclusive": true,
@@ -649,6 +647,7 @@
     },
     {
       "name": "Mindbreak",
+      "priority": 21000,
       "conditions": [
         {
           "inclusive": true,
@@ -660,6 +659,7 @@
     },
     {
       "name": "Faceless",
+      "priority": 22000,
       "conditions": [
         {
           "inclusive": true,
@@ -678,6 +678,7 @@
     },
     {
       "name": "Masked II",
+      "priority": 23000,
       "conditions": [
         {
           "inclusive": true,
@@ -696,6 +697,7 @@
     },
     {
       "name": "Masked",
+      "priority": 24000,
       "conditions": [
         {
           "inclusive": true,
@@ -707,6 +709,7 @@
     },
     {
       "name": "Clown",
+      "priority": 25000,
       "conditions": [
         {
           "inclusive": true,
@@ -725,6 +728,7 @@
     },
     {
       "name": "Entangled",
+      "priority": 26000,
       "conditions": [
         {
           "inclusive": true,
@@ -736,6 +740,7 @@
     },
     {
       "name": "Bimbo",
+      "priority": 27000,
       "conditions": [
         {
           "inclusive": true,
@@ -754,6 +759,7 @@
     },
     {
       "name": "Mini",
+      "priority": 28000,
       "conditions": [
         {
           "inclusive": true,
@@ -771,7 +777,8 @@
       ]
     },
     {
-      "name": "Possesed",
+      "name": "Possesed (A)",
+      "priority": 29000,
       "conditions": [
         {
           "inclusive": true,
@@ -789,7 +796,8 @@
       ]
     },
     {
-      "name": "Possesed",
+      "name": "Possesed (B)",
+      "priority": 29000,
       "conditions": [
         {
           "inclusive": true,
@@ -808,6 +816,7 @@
     },
     {
       "name": "Soulfreeze",
+      "priority": 30000,
       "conditions": [
         {
           "inclusive": true,
@@ -826,6 +835,7 @@
     },
     {
       "name": "Ignition",
+      "priority": 31000,
       "conditions": [
         {
           "inclusive": true,
@@ -837,6 +847,7 @@
     },
     {
       "name": "Cursed",
+      "priority": 32000,
       "conditions": [
         {
           "inclusive": true,
@@ -879,6 +890,7 @@
     },
     {
       "name": "Cheerleader",
+      "priority": 33000,
       "conditions": [
         {
           "inclusive": true,
@@ -890,6 +902,7 @@
     },
     {
       "name": "Formatting",
+      "priority": 34000,
       "conditions": [
         {
           "inclusive": true,
@@ -901,6 +914,7 @@
     },
     {
       "name": "Haigure Loop",
+      "priority": 35000,
       "conditions": [
         {
           "inclusive": true,
@@ -919,6 +933,7 @@
     },
     {
       "name": "Haigure",
+      "priority": 36000,
       "conditions": [
         {
           "inclusive": true,
@@ -937,6 +952,7 @@
     },
     {
       "name": "Stopped",
+      "priority": 37000,
       "conditions": [
         {
           "inclusive": true,
@@ -955,6 +971,7 @@
     },
     {
       "name": "Denial Can't Cum",
+      "priority": 38000,
       "conditions": [
         {
           "inclusive": true,
@@ -966,6 +983,7 @@
     },
     {
       "name": "Enthralled",
+      "priority": 39000,
       "conditions": [
         {
           "inclusive": true,
@@ -977,6 +995,7 @@
     },
     {
       "name": "Worship",
+      "priority": 40000,
       "conditions": [
         {
           "inclusive": true,
@@ -987,7 +1006,8 @@
       "replacements": []
     },
     {
-      "name": "Maid",
+      "name": "Maid (A)",
+      "priority": 41000,
       "conditions": [
         {
           "inclusive": true,
@@ -998,7 +1018,8 @@
       "replacements": []
     },
     {
-      "name": "Maid",
+      "name": "Maid (B)",
+      "priority": 42000,
       "conditions": [
         {
           "inclusive": true,
@@ -1010,6 +1031,7 @@
     },
     {
       "name": "Maid Outfit",
+      "priority": 43000,
       "conditions": [
         {
           "inclusive": true,
@@ -1021,6 +1043,7 @@
     },
     {
       "name": "Blank",
+      "priority": 44000,
       "conditions": [
         {
           "inclusive": true,
@@ -1032,6 +1055,7 @@
     },
     {
       "name": "Ravaged",
+      "priority": 45000,
       "conditions": [
         {
           "inclusive": true,
@@ -1043,6 +1067,7 @@
     },
     {
       "name": "Feral",
+      "priority": 46000,
       "conditions": [
         {
           "inclusive": true,
@@ -1054,6 +1079,7 @@
     },
     {
       "name": "Dumb",
+      "priority": 47000,
       "conditions": [
         {
           "inclusive": true,
@@ -1065,6 +1091,7 @@
     },
     {
       "name": "Unaware",
+      "priority": 48000,
       "conditions": [
         {
           "inclusive": true,
@@ -1076,6 +1103,7 @@
     },
     {
       "name": "Mesmerized",
+      "priority": 49000,
       "conditions": [
         {
           "inclusive": true,
@@ -1087,6 +1115,7 @@
     },
     {
       "name": "Captured",
+      "priority": 50000,
       "conditions": [
         {
           "inclusive": true,
@@ -1097,7 +1126,8 @@
       "replacements": []
     },
     {
-      "name": "Collared",
+      "name": "Collared (A)",
+      "priority": 51000,
       "conditions": [
         {
           "inclusive": true,
@@ -1109,6 +1139,7 @@
     },
     {
       "name": "Slimy",
+      "priority": 52000,
       "conditions": [
         {
           "inclusive": true,
@@ -1120,6 +1151,7 @@
     },
     {
       "name": "Horny",
+      "priority": 53000,
       "conditions": [
         {
           "inclusive": true,
@@ -1131,6 +1163,7 @@
     },
     {
       "name": "Giggly",
+      "priority": 54000,
       "conditions": [
         {
           "inclusive": true,
@@ -1142,6 +1175,7 @@
     },
     {
       "name": "Aroused",
+      "priority": 55000,
       "conditions": [
         {
           "inclusive": true,
@@ -1153,6 +1187,7 @@
     },
     {
       "name": "Pregnant",
+      "priority": 56000,
       "conditions": [
         {
           "inclusive": true,
@@ -1164,6 +1199,7 @@
     },
     {
       "name": "Denial",
+      "priority": 57000,
       "conditions": [
         {
           "inclusive": true,
@@ -1174,7 +1210,8 @@
       "replacements": []
     },
     {
-      "name": "Collared",
+      "name": "Collared (B)",
+      "priority": 58000,
       "conditions": [
         {
           "inclusive": true,
@@ -1186,6 +1223,7 @@
     },
     {
       "name": "Empowered",
+      "priority": 59000,
       "conditions": [
         {
           "inclusive": true,
@@ -1197,6 +1235,7 @@
     },
     {
       "name": "Corruption",
+      "priority": 60000,
       "conditions": [
         {
           "inclusive": true,
@@ -1208,6 +1247,7 @@
     },
     {
       "name": "Defeated",
+      "priority": 61000,
       "conditions": [
         {
           "inclusive": true,
