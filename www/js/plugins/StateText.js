@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 2.0.2
+ * @version 2.0.4
  * @plugindesc Change dialog text based on actor states
  * @help
  * ============================================================================
@@ -9,7 +9,7 @@
  * 
  * This plugin reads information from a configuration file placed at the root
  * of the game files (inside the www folder) called "statetext.json". It uses
- * that to intercept and change dialogs in the game that use the \N[X] annotation,
+ * that to intercept and change dialogs in the game that use the <\N[X]> annotation,
  * while also inserting the corresponding \AF[X] annotation if it's not already 
  * present, to show the character's current image, but only if a face image would
  * have been shown. This annotation comes from YEP Message Core, so that plugin
@@ -52,12 +52,17 @@ StatusText.Holders = StatusText.Holders || {};
 
     $.insertFace = function (text) {
         const actorMatch = text.match(/<\\N\[(\d+)\]>/i);
-        const faceMatch = text.match(/\\af\[(\d+)\]/i);
+        const faceMatch = text.match(/\\AF\[(\d+)\]/i);
         if ($.Params.image && actorMatch || faceMatch) {
             const match = actorMatch != null ? actorMatch : faceMatch;
             $.Params.index = parseInt(match[1]);
-            const faceMatch = text.match(/<\\AF\[(\d+)\]>/gi);
-            if (!faceMatch) return text.replace(/<\\N\[(\d+)\]>/gi, "<\\N[$1]>\\AF[$1]");
+
+            if (!faceMatch) {
+                return text.replace(
+                    /<\\N\[(\d+)\]>/i,
+                    "<\\N[$1]>\\AF[$1]"
+                );
+            }
         } else $.Params.index = -1;
         return text;
     };
@@ -84,7 +89,8 @@ StatusText.Holders = StatusText.Holders || {};
                     const id = condition["id"];
 
                     let response = false;
-                    if (type === "actor") response = id === actor._actorId;
+                    if (type === "switch") response = $gameSwitches.value(id);
+                    else if (type === "actor") response = id === actor._actorId;
                     else if (type === "random") response = Math.random() <= value;
                     else if (type === "class") response = actor.isClass($dataClasses[id]);
                     else if (type === "skill") response = actor.hasSkill(id);
